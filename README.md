@@ -43,14 +43,13 @@ Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICAT
 Atenção: lembre-se de que por padrão a JPA transforma nomes de atributos em camelCase para snake_case, como foi o caso do campo imgUrl do DSCatalog, que no banco de dados tinha o nome img_Url. Assim, o campo birthDate acima será criado no banco de dados como birth_Date, então seu script SQL deverá seguir este padrão.<br>
 
 ## Testes manuais no Postman<br>
-
-GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name<br>
+<b>GET /clients?page=0&linesPerPage=6&direction=ASC&orderBy=name<br>
 
 ### Busca de cliente por id<br>
-GET /clients/1<br>
+<b>GET /clients/1<br>
 
 ### Inserção de novo cliente<br>
-POST /clients<br>
+<b>POST /clients<br>
 {<br>
   "name": "Maria Silva",<br>
   "cpf": "12345678901",<br>
@@ -60,7 +59,7 @@ POST /clients<br>
 }<br>
 
 ### Atualização de cliente<br>
-PUT /clients/1<br>
+<b>PUT /clients/1<br>
 {<br>
   "name": "Maria Silvaaa",<br>
   "cpf": "12345678901",<br>
@@ -68,4 +67,7 @@ PUT /clients/1<br>
   "birthDate": "1994-07-20T10:30:00Z",<br>
   "children": 2<br>
 }<br>
+
+### Deleção de cliente
+<b>DELETE /clients/1
 

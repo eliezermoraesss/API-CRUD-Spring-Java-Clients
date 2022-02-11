@@ -1,21 +1,21 @@
 # API CRUD de Clientes
 
 ## Technologies<br>
-Spring Boot<br>
-Spring Data JPA<br>
-ORM<br>
-H2 Database <br>
+1. Spring Boot<br>
+2. Spring Data JPA<br>
+3. ORM<br>
+4. H2 Database <br>
 
 ## Features
-DTO (Data Transfer Object) principles<br>
-Automaticaly converter DTO to Entity<br>
-Custom Exception Handler messages<br>
-Resources (REST Controller)<br>
-DTO<br>
-Services<br>
-Entities<br>
-Respositories<br>
-Exceptions<br>
+1. DTO (Data Transfer Object) principles<br>
+2. Automaticaly converter DTO to Entity<br>
+3. Custom Exception Handler messages<br>
+4. Resources (REST Controller)<br>
+5. DTO<br>
+6. Services<br>
+7. Entities<br>
+8. Respositories<br>
+9. Exceptions<br>
 
 ## Built With<br>
 Spring Initializr<br>
@@ -27,12 +27,12 @@ For tests cases, you can check the API endpoints with Postman.<br>
 
 [Postman Collection](https://www.postman.com/)<br>
 
-## Endpoints: 
-Busca paginada de recursos<br>
-Busca de recurso por id<br>
-Inserir novo recurso<br>
-Atualizar recurso<br>
-Deletar recurso<br>
+## Backend: 
+1. Busca paginada de recursos<br>
+2. Busca de recurso por id<br>
+3. Inserir novo recurso<br>
+4. Atualizar recurso<br>
+5. Deletar recurso<br>
 <br>
 O projeto deverá estar com um ambiente de testes configurado acessando o banco de dados H2, deverá usar Maven como gerenciador de dependência, e Java 11 como linguagem.
 <br>

@@ -1,4 +1,4 @@
-# API CRUD de Clientes
+# API REST CRUD de Clientes
 
 ## Technologies<br>
 1. Spring Boot<br>
